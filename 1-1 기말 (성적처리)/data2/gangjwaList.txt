@@ -1,4 +1,0 @@
-data/gangjwa1.txt
-data/gangjwa2.txt
-data/gangjwa3.txt
-data/gangjwa4.txt
