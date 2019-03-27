@@ -70,7 +70,7 @@ public class DrawingPanel extends JPanel {
 	}
 	
 	private void continueDrawing(int x, int y) {
-//		currentTool.addPoint(x, y);
+		currentTool.addPoint(x, y);
 	}
 	
 	private void finishDrawing(int x, int y) {
