@@ -1,6 +1,7 @@
 package global;
 
-import shape.Rectangle;
+import shape.Rectangle; 
+import shape.Polygon;
 import shape.Shape;
 
 public class Constants {//상수로 쓰이는 객체의 배열
@@ -31,8 +32,7 @@ public class Constants {//상수로 쓰이는 객체의 배열
 	public enum EToolBar{
 		select("네모", new Rectangle()),
 		rect("네모", new Rectangle()),
-		ellipse("네모", new Rectangle()),
-		line("네모", new Rectangle());
+		poly("poly", new Polygon());
 		private String s;
 		private Shape shape;
 		private EToolBar(String s, Shape shape) {
